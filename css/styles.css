@@ -17,7 +17,7 @@ Variables
   --clr-primary-7: hsl(184, 65%, 59%);
   --clr-primary-8: hsl(184, 80%, 74%);
   --clr-primary-9: hsl(185, 94%, 87%);
-  --clr-primary-10: hsl(9, 93%, 48%);
+  --clr-primary-10: hsl(186, 100%, 94%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
@@ -27,9 +27,9 @@ Variables
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
-  --clr-grey-8: hsl(98, 31%, 80%);
-  --clr-grey-9: hsl(4, 94%, 46%)
-  --clr-grey-10: hsl(0, 33%, 96%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
   --ff-primary: 'Lato', sans-serif;
   --transition: all 0.3s linear;
@@ -48,6 +48,11 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+.prof{
+  font-size: 15px;
 }
 html {
   scroll-behavior: smooth;
@@ -208,8 +213,8 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-      url('../images/main.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgb(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+      url('../images/max1.jpg') center/cover no-repeat;
   }
   .hero-banner {
     padding: 0;
